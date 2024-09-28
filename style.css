@@ -1,0 +1,220 @@
+*
+{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main
+{
+    margin: auto;
+    border: 2px solid red;
+    height: 695px;
+    width: 871px;
+    position: relative;
+    overflow: hidden;
+}
+.main2
+{
+    height: 65%;
+    width: 100%;
+    background-image: url("jpgs/slider_bg01-1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont
+{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 350px;
+    background-color: transparent;
+    align-content: center;
+}
+.p1
+{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 350px;
+    background-color: transparent;
+    position: relative;
+}
+.pizza
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 1;
+}
+.tom
+{
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 280px;
+    background-color: transparent;
+}
+.leaf
+{
+    height: auto;
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    background-color: transparent;
+}
+.a
+{
+    clip-path: polygon(100% 0, 93% 45%, 100% 100%, 0 100%, 0 50%, 0 0);
+    color: wheat;
+    padding: 3px; 
+    width: 180px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.h1
+{
+    width: 400px;
+    font-size: 40px;
+}
+.icon
+{
+    color: rgba(243,61,51,255);
+    margin-right: 5px;
+}
+.pc
+{
+    margin-top: 2px;
+}
+.btn
+{
+    height: 40px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #fdb302;
+    border: 0px;
+    color: white; 
+    border: 3px solid #fdb302;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+.btn:hover
+{
+    border: 3px solid #fdb302;
+    background-color: transparent;
+    color: #fdb302;
+    letter-spacing: 1px;
+
+}
+.chilli
+{
+    height: 100px;
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    overflow: hidden;
+}
+.main3
+{
+    display: flex;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 15px;
+    left: 55px;
+}
+.box
+{
+    margin: 10px;
+    width: 230px;
+    height: 250px;
+    border: 1px solid rgb(231, 224, 224);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    color: aliceblue;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+}
+.image
+{
+    height: auto;
+    width: 200px;
+    margin-top: 25px;
+}
+h2
+{
+    margin: 30px 0px 0px 0px;
+}
+.btn2
+{
+    height: 30px;
+    width: 90px;
+    border-radius: 100px;
+    background-color: #fdb302;
+    color: white; 
+    border: 2px solid #fdb302;
+    margin-top: 12px;
+    font-size: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.btnd
+{
+    display: flex;
+    justify-content: center;
+}
+.btn2:hover 
+{
+    border: 2px solid #fdb302;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+}
+.arr
+{
+    transition: all 0.2s;
+    transform: translateX(0px);
+    position: absolute;
+    overflow: hidden;
+}
+.btn2:hover .arr
+{
+    transform: translateX(30px);
+}
+.btn2::after
+{
+    content: "SEE MENU";
+    width: fit-content;
+    position: absolute;
+    left: 5px;
+    z-index: -1;
+    /* visibility: hidden; */
+} 
+.btn2:hover .btn2::after 
+{
+    border: 3px solid #fdb302;
+    background-color: transparent;
+    color: white;
+    letter-spacing: 1px;
+    visibility: visible;
+    z-index: 2;
+}
+.circle
+{
+    background-color: red;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* background-color: transparent; */
+    z-index: 2;
+}
